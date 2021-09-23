@@ -1,0 +1,7 @@
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\chap2EXE\bin\Debug\chap2EXE.exe.config
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\chap2EXE\bin\Debug\chap2EXE.exe
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\chap2EXE\bin\Debug\chap2EXE.pdb
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\chap2EXE\obj\Debug\chap2EXE.csproj.AssemblyReference.cache
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\chap2EXE\obj\Debug\chap2EXE.csproj.CoreCompileInputs.cache
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\chap2EXE\obj\Debug\chap2EXE.exe
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\chap2EXE\obj\Debug\chap2EXE.pdb
