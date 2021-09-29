@@ -73,7 +73,8 @@ namespace simpleCalc
             output_txb.Font = new Font("Perpetua Titling MT", 36);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)// makeing all the number buttons put their respective numbers on the screen
+
         {
             if (output == "0")
             {
@@ -203,46 +204,126 @@ namespace simpleCalc
             output_txb.Text = output;
         }
 
-        private void addition_bttn_Click(object sender, EventArgs e)
+        private void addition_bttn_Click(object sender, EventArgs e)// makeing the opperater buttons function
         {
-            operand1 = int.Parse(output);
-            opp = "+";
-            output = "0";
-            output_txb.Text = output;
+            if (output.Length >=10)
+            {
+                MessageBox.Show("Overflow error make a smaller number");
+            }
+            else
+            {
+                operand1 = int.Parse(output);
+                opp = "+";
+                output = "0";
+                output_txb.Text = output;
+            }
         }
 
         private void subtraction_bttn_Click(object sender, EventArgs e)
         {
-            operand1 = int.Parse(output);
-            opp = "-";
-            output = "0";
-            output_txb.Text = output;
+            if (output.Length >=10)
+            {
+                MessageBox.Show("Overflow error make a smaller number");
+            }
+            else
+            {
+                operand1 = int.Parse(output);
+                opp = "-";
+                output = "0";
+                output_txb.Text = output;
+            }
         }
 
         private void multiply_bttn_Click(object sender, EventArgs e)
         {
-            operand1 = int.Parse(output);
-            opp = "*";
-            output = "0";
-            output_txb.Text = output;
+            if (output.Length >=10)
+            {
+                MessageBox.Show("Overflow error make a smaller number");
+            }
+            else
+            {
+                operand1 = int.Parse(output);
+                opp = "*";
+                output = "0";
+                output_txb.Text = output;
+            }
         }
 
         private void divition_btttn_Click(object sender, EventArgs e)
         {
-            operand1 = int.Parse(output);
-            opp = "/";
-            output = "0";
-            output_txb.Text = output;
+            if (output.Length >=10)
+            {
+                MessageBox.Show("Overflow error make a smaller number");
+            }
+            else
+            {
+                operand1 = int.Parse(output);
+                opp = "/";
+                output = "0";
+                output_txb.Text = output;
+            }
         }
 
         private void submit_bttn_Click(object sender, EventArgs e)
         {
-
+            /* operand 1 opp opperand 2 = ans
+            * get ans by using if and else if statments depending on the opperator
+            * if opp == "+" 
+            * {
+            *  ans = operand1+opperand2
+            *  }
+            *  repeat above with all operaters
+            * change ans to string
+            * ans displayed on screen using variabl*/
+            double ans;
+            if (output.Length >= 10)
+            {
+                MessageBox.Show("Overflow error make a smaller number");
+            }
+            else
+            {
+                operand2 = int.Parse(output); 
+            }
+            if (opp == "+")
+            {
+                ans = operand1 + operand2;
+            }
+            else if (opp == "-")
+            {
+                ans = operand1 - operand2;
+            }
+            else if (opp == "*")
+            {
+                ans = operand1 * operand2;
+            }
+            else if (opp == "/")
+            {
+                ans = 0;
+                if (operand2 == 0)
+                {
+                    MessageBox.Show("Don't divide by 0 dummie");
+                }
+                else
+                {
+                    ans = (double)operand1 / (double)operand2;
+                }
+            }
+            else
+            {
+                ans = 0;
+            }
+            
+            output = ans.ToString();
+            output_txb.Text = output;
         }
 
         private void clear_bttn_Click(object sender, EventArgs e)
         {
+            operand1 = 0;
+            operand2 = 0;
+            opp = "";
             output = "0";
+            output_txb.Text = output;
         }
     }
 }
