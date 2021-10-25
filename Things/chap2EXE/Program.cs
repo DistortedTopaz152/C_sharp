@@ -2,10 +2,10 @@
  Dyson smith
  Example program
  Sept. 21-21
-Tested by Jaxyn Gaillard
-Space out your last.
-Your questions are questions
-90/100
+ Tested by Jaxyn Gaillard
+ Space out your last.
+ Your questions are questions
+ 90/100
  Recent updates:
 */
 

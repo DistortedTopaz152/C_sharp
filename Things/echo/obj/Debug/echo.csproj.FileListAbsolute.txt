@@ -1,0 +1,7 @@
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\echo\bin\Debug\echo.exe.config
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\echo\bin\Debug\echo.exe
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\echo\bin\Debug\echo.pdb
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\echo\obj\Debug\echo.csproj.AssemblyReference.cache
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\echo\obj\Debug\echo.csproj.CoreCompileInputs.cache
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\echo\obj\Debug\echo.exe
+C:\Users\dyson.smith\OneDrive - tooelesd\Desktop\gamedev\Things\echo\obj\Debug\echo.pdb
