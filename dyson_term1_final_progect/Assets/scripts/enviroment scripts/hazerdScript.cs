@@ -1,3 +1,8 @@
+/*
+ * Dyson Smith
+ * Oct 27 2021
+ * Screen control
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

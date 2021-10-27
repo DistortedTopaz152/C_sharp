@@ -16,7 +16,7 @@ public class playerControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startPoint = new Vector3(-7, -2, 0);
+        startPoint = new Vector3(-7,-2,0);
         transform.position = startPoint;
     }
 
@@ -35,7 +35,7 @@ public class playerControler : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("Game over");
         }
 
     }
